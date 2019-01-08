@@ -1,0 +1,855 @@
+@ARTICLE{Zhang2017-yf,
+  title         = "Learning like humans with Deep Symbolic Networks",
+  author        = "Zhang, Qunzhi and Sornette, Didier",
+  abstract      = "We introduce the Deep Symbolic Network (DSN) model, which
+                   aims at becoming the white-box version of Deep Neural
+                   Networks (DNN). The DSN model provides a simple, universal
+                   yet powerful structure, similar to DNN, to represent any
+                   knowledge of the world, which is transparent to humans. The
+                   conjecture behind the DSN model is that any type of real
+                   world objects sharing enough common features are mapped into
+                   human brains as a symbol. Those symbols are connected by
+                   links, representing the composition, correlation, causality,
+                   or other relationships between them, forming a deep,
+                   hierarchical symbolic network structure. Powered by such a
+                   structure, the DSN model is expected to learn like humans,
+                   because of its unique characteristics. First, it is
+                   universal, using the same structure to store any knowledge.
+                   Second, it can learn symbols from the world and construct
+                   the deep symbolic networks automatically, by utilizing the
+                   fact that real world objects have been naturally separated
+                   by singularities. Third, it is symbolic, with the capacity
+                   of performing causal deduction and generalization. Fourth,
+                   the symbols and the links between them are transparent to
+                   us, and thus we will know what it has learned or not - which
+                   is the key for the security of an AI system. Fifth, its
+                   transparency enables it to learn with relatively small data.
+                   Sixth, its knowledge can be accumulated. Last but not least,
+                   it is more friendly to unsupervised learning than DNN. We
+                   present the details of the model, the algorithm powering its
+                   automatic learning ability, and describe its usefulness in
+                   different use cases. The purpose of this paper is to
+                   generate broad interest to develop it within an open source
+                   project centered on the Deep Symbolic Network (DSN) model
+                   towards the development of general AI.",
+  month         =  jul,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.AI",
+  eprint        = "1707.03377"
+}
+
+@ARTICLE{Read2014-xh,
+  title         = "Deep Learning for Multi-label Classification",
+  author        = "Read, Jesse and Perez-Cruz, Fernando",
+  abstract      = "In multi-label classification, the main focus has been to
+                   develop ways of learning the underlying dependencies between
+                   labels, and to take advantage of this at classification
+                   time. Developing better feature-space representations has
+                   been predominantly employed to reduce complexity, e.g., by
+                   eliminating non-helpful feature attributes from the input
+                   space prior to (or during) training. This is an important
+                   task, since many multi-label methods typically create many
+                   different copies or views of the same input data as they
+                   transform it, and considerable memory can be saved by taking
+                   advantage of redundancy. In this paper, we show that a
+                   proper development of the feature space can make labels less
+                   interdependent and easier to model and predict at inference
+                   time. For this task we use a deep learning approach with
+                   restricted Boltzmann machines. We present a deep network
+                   that, in an empirical evaluation, outperforms a number of
+                   competitive methods from the literature",
+  month         =  dec,
+  year          =  2014,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1502.05988"
+}
+
+@ARTICLE{Schroff2015-go,
+  title         = "{FaceNet}: A Unified Embedding for Face Recognition and
+                   Clustering",
+  author        = "Schroff, Florian and Kalenichenko, Dmitry and Philbin, James",
+  abstract      = "Despite significant recent advances in the field of face
+                   recognition, implementing face verification and recognition
+                   efficiently at scale presents serious challenges to current
+                   approaches. In this paper we present a system, called
+                   FaceNet, that directly learns a mapping from face images to
+                   a compact Euclidean space where distances directly
+                   correspond to a measure of face similarity. Once this space
+                   has been produced, tasks such as face recognition,
+                   verification and clustering can be easily implemented using
+                   standard techniques with FaceNet embeddings as feature
+                   vectors. Our method uses a deep convolutional network
+                   trained to directly optimize the embedding itself, rather
+                   than an intermediate bottleneck layer as in previous deep
+                   learning approaches. To train, we use triplets of roughly
+                   aligned matching / non-matching face patches generated using
+                   a novel online triplet mining method. The benefit of our
+                   approach is much greater representational efficiency: we
+                   achieve state-of-the-art face recognition performance using
+                   only 128-bytes per face. On the widely used Labeled Faces in
+                   the Wild (LFW) dataset, our system achieves a new record
+                   accuracy of 99.63\%. On YouTube Faces DB it achieves
+                   95.12\%. Our system cuts the error rate in comparison to the
+                   best published result by 30\% on both datasets. We also
+                   introduce the concept of harmonic embeddings, and a harmonic
+                   triplet loss, which describe different versions of face
+                   embeddings (produced by different networks) that are
+                   compatible to each other and allow for direct comparison
+                   between each other.",
+  month         =  mar,
+  year          =  2015,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1503.03832"
+}
+
+@ARTICLE{Cole2017-pp,
+  title         = "Synthesizing Normalized Faces from Facial Identity Features",
+  author        = "Cole, Forrester and Belanger, David and Krishnan, Dilip and
+                   Sarna, Aaron and Mosseri, Inbar and Freeman, William T",
+  abstract      = "We present a method for synthesizing a frontal,
+                   neutral-expression image of a person's face given an input
+                   face photograph. This is achieved by learning to generate
+                   facial landmarks and textures from features extracted from a
+                   facial-recognition network. Unlike previous approaches, our
+                   encoding feature vector is largely invariant to lighting,
+                   pose, and facial expression. Exploiting this invariance, we
+                   train our decoder network using only frontal,
+                   neutral-expression photographs. Since these photographs are
+                   well aligned, we can decompose them into a sparse set of
+                   landmark points and aligned texture maps. The decoder then
+                   predicts landmarks and textures independently and combines
+                   them using a differentiable image warping operation. The
+                   resulting images can be used for a number of applications,
+                   such as analyzing facial attributes, exposure and white
+                   balance adjustment, or creating a 3-D avatar.",
+  month         =  jan,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1701.04851"
+}
+
+@INPROCEEDINGS{Mao2017-zj,
+  title     = "Neural Adaptive Video Streaming with Pensieve",
+  booktitle = "Proceedings of the Conference of the {ACM} Special Interest
+               Group on Data Communication",
+  author    = "Mao, Hongzi and Netravali, Ravi and Alizadeh, Mohammad",
+  publisher = "ACM",
+  pages     = "197--210",
+  month     =  aug,
+  year      =  2017,
+  keywords  = "bitrate adaptation; reinforcement learning; video streaming"
+}
+
+@ARTICLE{Bengio2013-mo,
+  title    = "Representation learning: a review and new perspectives",
+  author   = "Bengio, Yoshua and Courville, Aaron and Vincent, Pascal",
+  abstract = "The success of machine learning algorithms generally depends on
+              data representation, and we hypothesize that this is because
+              different representations can entangle and hide more or less the
+              different explanatory factors of variation behind the data.
+              Although specific domain knowledge can be used to help design
+              representations, learning with generic priors can also be used,
+              and the quest for AI is motivating the design of more powerful
+              representation-learning algorithms implementing such priors. This
+              paper reviews recent work in the area of unsupervised feature
+              learning and deep learning, covering advances in probabilistic
+              models, autoencoders, manifold learning, and deep networks. This
+              motivates longer term unanswered questions about the appropriate
+              objectives for learning good representations, for computing
+              representations (i.e., inference), and the geometrical
+              connections between representation learning, density estimation,
+              and manifold learning.",
+  journal  = "IEEE Trans. Pattern Anal. Mach. Intell.",
+  volume   =  35,
+  number   =  8,
+  pages    = "1798--1828",
+  month    =  aug,
+  year     =  2013,
+  language = "en"
+}
+
+@ARTICLE{Cohen2018-cd,
+  title         = "Spherical {CNNs}",
+  author        = "Cohen, Taco S and Geiger, Mario and Koehler, Jonas and
+                   Welling, Max",
+  abstract      = "Convolutional Neural Networks (CNNs) have become the method
+                   of choice for learning problems involving 2D planar images.
+                   However, a number of problems of recent interest have
+                   created a demand for models that can analyze spherical
+                   images. Examples include omnidirectional vision for drones,
+                   robots, and autonomous cars, molecular regression problems,
+                   and global weather and climate modelling. A naive
+                   application of convolutional networks to a planar projection
+                   of the spherical signal is destined to fail, because the
+                   space-varying distortions introduced by such a projection
+                   will make translational weight sharing ineffective. In this
+                   paper we introduce the building blocks for constructing
+                   spherical CNNs. We propose a definition for the spherical
+                   cross-correlation that is both expressive and
+                   rotation-equivariant. The spherical correlation satisfies a
+                   generalized Fourier theorem, which allows us to compute it
+                   efficiently using a generalized (non-commutative) Fast
+                   Fourier Transform (FFT) algorithm. We demonstrate the
+                   computational efficiency, numerical accuracy, and
+                   effectiveness of spherical CNNs applied to 3D model
+                   recognition and atomization energy regression.",
+  month         =  jan,
+  year          =  2018,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1801.10130"
+}
+
+@ARTICLE{George2017-jm,
+  title         = "Towards {On-Chip} Optical {FFTs} for Convolutional Neural
+                   Networks",
+  author        = "George, Jonathan and Nejadriahi, Hani and Sorger, Volker",
+  abstract      = "Convolutional neural networks have become an essential
+                   element of spatial deep learning systems. In the prevailing
+                   architecture, the convolution operation is performed with
+                   Fast Fourier Transforms (FFT) electronically in GPUs. The
+                   parallelism of GPUs provides an efficiency over CPUs,
+                   however both approaches being electronic are bound by the
+                   speed and power limits of the interconnect delay inside the
+                   circuits. Here we present a silicon photonics based
+                   architecture for convolutional neural networks that
+                   harnesses the phase property of light to perform FFTs
+                   efficiently. Our all-optical FFT is based on nested
+                   Mach-Zender Interferometers, directional couplers, and phase
+                   shifters, with backend electro-optic modulators for
+                   sampling. The FFT delay depends only on the propagation
+                   delay of the optical signal through the silicon photonics
+                   structures. Designing and analyzing the performance of a
+                   convolutional neural network deployed with our on-chip
+                   optical FFT, we find dramatic improvements by up to 10^4
+                   when compared to state-of-the-art GPUs when exploring a
+                   compounded figure-of-merit given by power per convolution
+                   over area. At a high level, this performance is enabled by
+                   mapping the desired mathematical function, an FFT,
+                   synergistically onto hardware, in this case optical delay
+                   interferometers.",
+  month         =  aug,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.ET",
+  eprint        = "1708.09534"
+}
+
+@ARTICLE{Eigen2014-yr,
+  title         = "Predicting Depth, Surface Normals and Semantic Labels with a
+                   Common {Multi-Scale} Convolutional Architecture",
+  author        = "Eigen, David and Fergus, Rob",
+  abstract      = "In this paper we address three different computer vision
+                   tasks using a single basic architecture: depth prediction,
+                   surface normal estimation, and semantic labeling. We use a
+                   multiscale convolutional network that is able to adapt
+                   easily to each task using only small modifications,
+                   regressing from the input image to the output map directly.
+                   Our method progressively refines predictions using a
+                   sequence of scales, and captures many image details without
+                   any superpixels or low-level segmentation. We achieve
+                   state-of-the-art performance on benchmarks for all three
+                   tasks.",
+  month         =  nov,
+  year          =  2014,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1411.4734"
+}
+
+@ARTICLE{Liu2015-pm,
+  title         = "{SSD}: Single Shot {MultiBox} Detector",
+  author        = "Liu, Wei and Anguelov, Dragomir and Erhan, Dumitru and
+                   Szegedy, Christian and Reed, Scott and Fu, Cheng-Yang and
+                   Berg, Alexander C",
+  abstract      = "We present a method for detecting objects in images using a
+                   single deep neural network. Our approach, named SSD,
+                   discretizes the output space of bounding boxes into a set of
+                   default boxes over different aspect ratios and scales per
+                   feature map location. At prediction time, the network
+                   generates scores for the presence of each object category in
+                   each default box and produces adjustments to the box to
+                   better match the object shape. Additionally, the network
+                   combines predictions from multiple feature maps with
+                   different resolutions to naturally handle objects of various
+                   sizes. Our SSD model is simple relative to methods that
+                   require object proposals because it completely eliminates
+                   proposal generation and subsequent pixel or feature
+                   resampling stage and encapsulates all computation in a
+                   single network. This makes SSD easy to train and
+                   straightforward to integrate into systems that require a
+                   detection component. Experimental results on the PASCAL VOC,
+                   MS COCO, and ILSVRC datasets confirm that SSD has comparable
+                   accuracy to methods that utilize an additional object
+                   proposal step and is much faster, while providing a unified
+                   framework for both training and inference. Compared to other
+                   single stage methods, SSD has much better accuracy, even
+                   with a smaller input image size. For $300\times 300$ input,
+                   SSD achieves 72.1\% mAP on VOC2007 test at 58 FPS on a
+                   Nvidia Titan X and for $500\times 500$ input, SSD achieves
+                   75.1\% mAP, outperforming a comparable state of the art
+                   Faster R-CNN model. Code is available at
+                   https://github.com/weiliu89/caffe/tree/ssd .",
+  month         =  dec,
+  year          =  2015,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1512.02325"
+}
+
+@ARTICLE{Shelhamer2017-cu,
+  title    = "Fully Convolutional Networks for Semantic Segmentation",
+  author   = "Shelhamer, Evan and Long, Jonathan and Darrell, Trevor",
+  abstract = "Convolutional networks are powerful visual models that yield
+              hierarchies of features. We show that convolutional networks by
+              themselves, trained end-to-end, pixels-to-pixels, improve on the
+              previous best result in semantic segmentation. Our key insight is
+              to build ``fully convolutional'' networks that take input of
+              arbitrary size and produce correspondingly-sized output with
+              efficient inference and learning. We define and detail the space
+              of fully convolutional networks, explain their application to
+              spatially dense prediction tasks, and draw connections to prior
+              models. We adapt contemporary classification networks (AlexNet,
+              the VGG net, and GoogLeNet) into fully convolutional networks and
+              transfer their learned representations by fine-tuning to the
+              segmentation task. We then define a skip architecture that
+              combines semantic information from a deep, coarse layer with
+              appearance information from a shallow, fine layer to produce
+              accurate and detailed segmentations. Our fully convolutional
+              networks achieve improved segmentation of PASCAL VOC (30\%
+              relative improvement to 67.2\% mean IU on 2012), NYUDv2, SIFT
+              Flow, and PASCAL-Context, while inference takes one tenth of a
+              second for a typical image.",
+  journal  = "IEEE Trans. Pattern Anal. Mach. Intell.",
+  volume   =  39,
+  number   =  4,
+  pages    = "640--651",
+  month    =  apr,
+  year     =  2017,
+  language = "en"
+}
+
+@ARTICLE{Simonyan2014-gw,
+  title         = "Very Deep Convolutional Networks for {Large-Scale} Image
+                   Recognition",
+  author        = "Simonyan, Karen and Zisserman, Andrew",
+  abstract      = "In this work we investigate the effect of the convolutional
+                   network depth on its accuracy in the large-scale image
+                   recognition setting. Our main contribution is a thorough
+                   evaluation of networks of increasing depth using an
+                   architecture with very small (3x3) convolution filters,
+                   which shows that a significant improvement on the prior-art
+                   configurations can be achieved by pushing the depth to 16-19
+                   weight layers. These findings were the basis of our ImageNet
+                   Challenge 2014 submission, where our team secured the first
+                   and the second places in the localisation and classification
+                   tracks respectively. We also show that our representations
+                   generalise well to other datasets, where they achieve
+                   state-of-the-art results. We have made our two
+                   best-performing ConvNet models publicly available to
+                   facilitate further research on the use of deep visual
+                   representations in computer vision.",
+  month         =  sep,
+  year          =  2014,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1409.1556"
+}
+
+@MISC{Adi_undated-hq,
+  title        = "One by One [ 1 x 1 ] Convolution - counter-intuitively useful",
+  author       = "(Adi), Aaditya Prakash",
+  abstract     = "Whenever I discuss or show GoogleNet architecture, one
+                  question always comes up -",
+  howpublished = "\url{http://iamaaditya.github.io/2016/03/one-by-one-convolution/}",
+  note         = "Accessed: 2018-1-19"
+}
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@MISC{Ujjwalkarn2016-ka,
+  title        = "An Intuitive Explanation of Convolutional Neural Networks",
+  booktitle    = "the data science blog",
+  author       = "{ujjwalkarn}",
+  abstract     = "What are Convolutional Neural Networks and why are they
+                  important? Convolutional Neural Networks (ConvNets or CNNs)
+                  are a category of Neural Networks that have proven very
+                  effective in areas such as image recognition and
+                  classification. ConvNets have been successful in identifying
+                  faces, objects and traffic signs apart from powering vision
+                  in robots and self driving cars. Figure 1:…",
+  month        =  aug,
+  year         =  2016,
+  howpublished = "\url{https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/}",
+  note         = "Accessed: 2018-1-18"
+}
+
+@ARTICLE{Bouvrie2006-oe,
+  title    = "Notes on Convolutional Neural Networks",
+  author   = "Bouvrie, Jake",
+  abstract = "We discuss the derivation and implementation of convolutional
+              neural networks, followed by an extension which allows one to
+              learn sparse combinations of feature maps. The derivation we
+              present is specific to two-dimensional data and convolutions, but
+              can be extended without much additional effort to an arbitrary
+              number of dimensions. Throughout the discussion, we emphasize
+              efficiency of the implementation, and give small snippets of
+              MATLAB code to accompany the equations.",
+  month    =  nov,
+  year     =  2006,
+  keywords = "convolutional neural networks, machine vision, machine learning"
+}
+
+@ARTICLE{Zeiler2013-jk,
+  title         = "Visualizing and Understanding Convolutional Networks",
+  author        = "Zeiler, Matthew D and Fergus, Rob",
+  abstract      = "Large Convolutional Network models have recently
+                   demonstrated impressive classification performance on the
+                   ImageNet benchmark. However there is no clear understanding
+                   of why they perform so well, or how they might be improved.
+                   In this paper we address both issues. We introduce a novel
+                   visualization technique that gives insight into the function
+                   of intermediate feature layers and the operation of the
+                   classifier. We also perform an ablation study to discover
+                   the performance contribution from different model layers.
+                   This enables us to find model architectures that outperform
+                   Krizhevsky \textbackslashetal on the ImageNet classification
+                   benchmark. We show our ImageNet model generalizes well to
+                   other datasets: when the softmax classifier is retrained, it
+                   convincingly beats the current state-of-the-art results on
+                   Caltech-101 and Caltech-256 datasets.",
+  month         =  nov,
+  year          =  2013,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CV",
+  eprint        = "1311.2901"
+}
+
+@ARTICLE{Dumoulin2016-yd,
+  title         = "A guide to convolution arithmetic for deep learning",
+  author        = "Dumoulin, Vincent and Visin, Francesco",
+  abstract      = "We introduce a guide to help deep learning practitioners
+                   understand and manipulate convolutional neural network
+                   architectures. The guide clarifies the relationship between
+                   various properties (input shape, kernel shape, zero padding,
+                   strides and output shape) of convolutional, pooling and
+                   transposed convolutional layers, as well as the relationship
+                   between convolutional and transposed convolutional layers.
+                   Relationships are derived for various cases, and are
+                   illustrated in order to make them intuitive.",
+  month         =  mar,
+  year          =  2016,
+  archivePrefix = "arXiv",
+  primaryClass  = "stat.ML",
+  eprint        = "1603.07285"
+}
+
+@MISC{noauthor_undated-oi,
+  title        = "{CS231n} Convolutional Neural Networks for Visual Recognition",
+  abstract     = "Course materials and notes for Stanford class CS231n:
+                  Convolutional Neural Networks for Visual Recognition.",
+  howpublished = "\url{http://cs231n.github.io/}",
+  note         = "Accessed: 2018-1-14"
+}
+
+@ARTICLE{Yi2004-vd,
+  title   = "Neural Networks Based Approach for Computing Eigenvectors and
+             Eigenvalues of Symmetric Matrix",
+  author  = "Yi, Zhang and Fu, Nan",
+  journal = "Comput. Math. Appl.",
+  volume  =  47,
+  pages   = "1155--1164",
+  year    =  2004
+}
+
+@ARTICLE{Luo_undated-tp,
+  title  = "{EigenNet}: Towards Fast and Structural Learning of Deep Neural
+            Networks",
+  author = "Luo, Ping"
+}
+
+@ARTICLE{noauthor_undated-fl,
+  title = "A Berkeley View of Systems Challenges for {AI}"
+}
+
+@ARTICLE{Wilhelmi2017-cq,
+  title         = "Implications of Decentralized Q-learning Resource Allocation
+                   in Wireless Networks",
+  author        = "Wilhelmi, Francesc and Bellalta, Boris and Cano, Cristina
+                   and Jonsson, Anders",
+  abstract      = "Reinforcement Learning is gaining attention by the wireless
+                   networking community due to its potential to learn
+                   good-performing configurations only from the observed
+                   results. In this work we propose a stateless variation of
+                   Q-learning, which we apply to exploit spatial reuse in a
+                   wireless network. In particular, we allow networks to modify
+                   both their transmission power and the channel used solely
+                   based on the experienced throughput. We concentrate in a
+                   completely decentralized scenario in which no information
+                   about neighbouring nodes is available to the learners. Our
+                   results show that although the algorithm is able to find the
+                   best-performing actions to enhance aggregate throughput,
+                   there is high variability in the throughput experienced by
+                   the individual networks. We identify the cause of this
+                   variability as the adversarial setting of our setup, in
+                   which the most played actions provide intermittent good/poor
+                   performance depending on the neighbouring decisions. We also
+                   evaluate the effect of the intrinsic learning parameters of
+                   the algorithm on this variability.",
+  month         =  may,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.NI",
+  eprint        = "1705.10508"
+}
+
+@ARTICLE{Mismar2017-mx,
+  title         = "Deep Reinforcement Learning for Improving Downlink mmWave
+                   Communication Performance",
+  author        = "Mismar, Faris B and Evans, Brian L",
+  abstract      = "We propose a method to improve the DL SINR for a single cell
+                   indoor base station operating in the millimeter wave
+                   frequency range using deep reinforcement learning. In this
+                   paper, we use the deep reinforcement learning model to
+                   arrive at optimal sequences of actions to improve the
+                   cellular network SINR value from a starting to a feasible
+                   target value. While deep reinforcement learning has been
+                   discussed extensively in literature, its applications in the
+                   cellular networks in general and in mmWave propagations are
+                   new and starting to gain attention. We have run simulations
+                   and have shown that an optimal action sequence is feasible
+                   even against the randomness of the network actions.",
+  month         =  jul,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.NI",
+  eprint        = "1707.02329"
+}
+
+@INCOLLECTION{Bradtke1995-zj,
+  title     = "Reinforcement Learning Methods for {Continuous-Time} Markov
+               Decision Problems",
+  booktitle = "Advances in Neural Information Processing Systems 7",
+  author    = "Bradtke, Steven J and Duff, Michael O",
+  editor    = "Tesauro, G and Touretzky, D S and Leen, T K",
+  publisher = "MIT Press",
+  pages     = "393--400",
+  year      =  1995
+}
+
+@MISC{noauthor_undated-qi,
+  title        = "Calculus on Computational Graphs: Backpropagation -- colah's
+                  blog",
+  howpublished = "\url{http://colah.github.io/posts/2015-08-Backprop/}",
+  note         = "Accessed: 2017-9-18"
+}
+
+@ARTICLE{ODonoghue2016-hc,
+  title         = "Combining policy gradient and Q-learning",
+  author        = "O'Donoghue, Brendan and Munos, Remi and Kavukcuoglu, Koray
+                   and Mnih, Volodymyr",
+  abstract      = "Policy gradient is an efficient technique for improving a
+                   policy in a reinforcement learning setting. However, vanilla
+                   online variants are on-policy only and not able to take
+                   advantage of off-policy data. In this paper we describe a
+                   new technique that combines policy gradient with off-policy
+                   Q-learning, drawing experience from a replay buffer. This is
+                   motivated by making a connection between the fixed points of
+                   the regularized policy gradient algorithm and the Q-values.
+                   This connection allows us to estimate the Q-values from the
+                   action preferences of the policy, to which we apply
+                   Q-learning updates. We refer to the new technique as 'PGQL',
+                   for policy gradient and Q-learning. We also establish an
+                   equivalency between action-value fitting techniques and
+                   actor-critic algorithms, showing that regularized policy
+                   gradient techniques can be interpreted as advantage function
+                   learning algorithms. We conclude with some numerical
+                   examples that demonstrate improved data efficiency and
+                   stability of PGQL. In particular, we tested PGQL on the full
+                   suite of Atari games and achieved performance exceeding that
+                   of both asynchronous advantage actor-critic (A3C) and
+                   Q-learning.",
+  month         =  nov,
+  year          =  2016,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1611.01626"
+}
+
+@ARTICLE{Mirowski2016-wd,
+  title         = "Learning to Navigate in Complex Environments",
+  author        = "Mirowski, Piotr and Pascanu, Razvan and Viola, Fabio and
+                   Soyer, Hubert and Ballard, Andrew J and Banino, Andrea and
+                   Denil, Misha and Goroshin, Ross and Sifre, Laurent and
+                   Kavukcuoglu, Koray and Kumaran, Dharshan and Hadsell, Raia",
+  abstract      = "Learning to navigate in complex environments with dynamic
+                   elements is an important milestone in developing AI agents.
+                   In this work we formulate the navigation question as a
+                   reinforcement learning problem and show that data efficiency
+                   and task performance can be dramatically improved by relying
+                   on additional auxiliary tasks leveraging multimodal sensory
+                   inputs. In particular we consider jointly learning the
+                   goal-driven reinforcement learning problem with auxiliary
+                   depth prediction and loop closure classification tasks. This
+                   approach can learn to navigate from raw sensory input in
+                   complicated 3D mazes, approaching human-level performance
+                   even under conditions where the goal location changes
+                   frequently. We provide detailed analysis of the agent
+                   behaviour, its ability to localise, and its network activity
+                   dynamics, showing that the agent implicitly learns key
+                   navigation abilities.",
+  month         =  nov,
+  year          =  2016,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.AI",
+  eprint        = "1611.03673"
+}
+
+@ARTICLE{Mnih2015-fy,
+  title    = "Human-level control through deep reinforcement learning",
+  author   = "Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and
+              Rusu, Andrei A and Veness, Joel and Bellemare, Marc G and Graves,
+              Alex and Riedmiller, Martin and Fidjeland, Andreas K and
+              Ostrovski, Georg and Petersen, Stig and Beattie, Charles and
+              Sadik, Amir and Antonoglou, Ioannis and King, Helen and Kumaran,
+              Dharshan and Wierstra, Daan and Legg, Shane and Hassabis, Demis",
+  abstract = "The theory of reinforcement learning provides a normative
+              account, deeply rooted in psychological and neuroscientific
+              perspectives on animal behaviour, of how agents may optimize
+              their control of an environment. To use reinforcement learning
+              successfully in situations approaching real-world complexity,
+              however, agents are confronted with a difficult task: they must
+              derive efficient representations of the environment from
+              high-dimensional sensory inputs, and use these to generalize past
+              experience to new situations. Remarkably, humans and other
+              animals seem to solve this problem through a harmonious
+              combination of reinforcement learning and hierarchical sensory
+              processing systems, the former evidenced by a wealth of neural
+              data revealing notable parallels between the phasic signals
+              emitted by dopaminergic neurons and temporal difference
+              reinforcement learning algorithms. While reinforcement learning
+              agents have achieved some successes in a variety of domains,
+              their applicability has previously been limited to domains in
+              which useful features can be handcrafted, or to domains with
+              fully observed, low-dimensional state spaces. Here we use recent
+              advances in training deep neural networks to develop a novel
+              artificial agent, termed a deep Q-network, that can learn
+              successful policies directly from high-dimensional sensory inputs
+              using end-to-end reinforcement learning. We tested this agent on
+              the challenging domain of classic Atari 2600 games. We
+              demonstrate that the deep Q-network agent, receiving only the
+              pixels and the game score as inputs, was able to surpass the
+              performance of all previous algorithms and achieve a level
+              comparable to that of a professional human games tester across a
+              set of 49 games, using the same algorithm, network architecture
+              and hyperparameters. This work bridges the divide between
+              high-dimensional sensory inputs and actions, resulting in the
+              first artificial agent that is capable of learning to excel at a
+              diverse array of challenging tasks.",
+  journal  = "Nature",
+  volume   =  518,
+  number   =  7540,
+  pages    = "529--533",
+  month    =  feb,
+  year     =  2015,
+  language = "en"
+}
+
+@ARTICLE{Keskar2016-bf,
+  title         = "On {Large-Batch} Training for Deep Learning: Generalization
+                   Gap and Sharp Minima",
+  author        = "Keskar, Nitish Shirish and Mudigere, Dheevatsa and Nocedal,
+                   Jorge and Smelyanskiy, Mikhail and Tang, Ping Tak Peter",
+  abstract      = "The stochastic gradient descent (SGD) method and its
+                   variants are algorithms of choice for many Deep Learning
+                   tasks. These methods operate in a small-batch regime wherein
+                   a fraction of the training data, say $32$-$512$ data points,
+                   is sampled to compute an approximation to the gradient. It
+                   has been observed in practice that when using a larger batch
+                   there is a degradation in the quality of the model, as
+                   measured by its ability to generalize. We investigate the
+                   cause for this generalization drop in the large-batch regime
+                   and present numerical evidence that supports the view that
+                   large-batch methods tend to converge to sharp minimizers of
+                   the training and testing functions - and as is well known,
+                   sharp minima lead to poorer generalization. In contrast,
+                   small-batch methods consistently converge to flat
+                   minimizers, and our experiments support a commonly held view
+                   that this is due to the inherent noise in the gradient
+                   estimation. We discuss several strategies to attempt to help
+                   large-batch methods eliminate this generalization gap.",
+  month         =  sep,
+  year          =  2016,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1609.04836"
+}
+
+@ARTICLE{noauthor_undated-le,
+  title    = "Tensor Decomposition for Signal Processing and Machine Learning",
+  author   = "Sidiropoulos, Nicholas D and De Lathauwer, Lieven and Fu, Xiao
+              and Huang, Kejun and Papalexakis, Evangelos E and Faloutsos,
+              Christos",
+  abstract = "Tensors or \{\textbackslashem multi-way arrays\} are functions of
+              three or more indices $(i,j,k,\cdots)$ -- similar to matrices
+              (two-way arrays), which are functions of two indices $(r,c)$ for
+              (row,column). Tensors have a rich history, stretching over almost
+              a century, and touching upon numerous disciplines; but they have
+              only recently become ubiquitous in signal and data analytics at
+              the confluence of signal processing, statistics, data mining and
+              machine learning. This overview article aims to provide a good
+              starting point for researchers and practitioners interested in
+              learning about and working with tensors. As such, it focuses on
+              fundamentals and motivation (using various application examples),
+              aiming to strike an appropriate balance of breadth
+              \{\textbackslashem and depth\} that will enable someone having
+              taken first graduate courses in matrix algebra and probability to
+              get started doing research and/or developing tensor algorithms
+              and software. Some background in applied optimization is useful
+              but not strictly required. The material covered includes tensor
+              rank and rank decomposition; basic tensor factorization models
+              and their relationships and properties (including fairly good
+              coverage of identifiability); broad coverage of algorithms
+              ranging from alternating optimization to stochastic gradient;
+              statistical performance analysis; and applications ranging from
+              source separation to collaborative filtering, mixture and topic
+              modeling, classification, and multilinear subspace learning.",
+  journal  = "arXiv [stat.ML]",
+  month    =  jul,
+  year     =  2016
+}
+
+@ARTICLE{OShea2017-bw,
+  title         = "An Introduction to Machine Learning Communications Systems",
+  author        = "O'Shea, Timothy J and Hoydis, Jakob",
+  abstract      = "We introduce and motivate machine learning (ML)
+                   communications systems that aim to improve on and to even
+                   replace the vast expert knowledge in the field of
+                   communications using modern machine learning techniques.
+                   These have recently achieved breakthroughs in many different
+                   domains, but not yet in communications. By interpreting a
+                   communications system as an autoencoder, we develop a
+                   fundamental new way to think about radio communications
+                   system design as an end-to-end reconstruction optimization
+                   task that seeks to jointly optimize transmitter and receiver
+                   components in a single process. We further present the
+                   concept of Radio Transformer Networks (RTNs) as a means to
+                   incorporate expert domain knowledge in the ML model and
+                   study the application of convolutional neural networks
+                   (CNNs) on raw IQ time-series data for modulation
+                   classification. We conclude the paper with a deep discussion
+                   of open challenges and areas for future investigation.",
+  month         =  feb,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.IT",
+  eprint        = "1702.00832"
+}
+
+@MISC{noauthor_undated-pt,
+  title        = "Unsupervised Feature Learning and Deep Learning Tutorial",
+  howpublished = "\url{http://ufldl.stanford.edu/tutorial/}",
+  note         = "Accessed: 2017-3-21"
+}
+
+@ARTICLE{noauthor_undated-hn,
+  title = "A Theoretical Framework for {Back-Propagation} - Yann {LeCun}"
+}
+
+@Book{Mitchell:1997:ML,
+  author = "Tom M. Mitchell",
+  title = "Machine Learning",
+  publisher = "McGraw-Hill",
+  address = "New York",
+  keywords = "machine learning",
+  year = "1997"
+}
+
+@Book{dlbook,
+  author = "Ian Goodfellow and Yoshua Bengio and Aaron Courville",
+  title = "Deep Learning",
+  publisher = "MIT Press",
+  year = "2016"
+}
+
+
+@ARTICLE{Yamins2016-tg,
+  title    = "Eight open questions in the computational modeling of higher
+              sensory cortex",
+  author   = "Yamins, Daniel L K and DiCarlo, James J",
+  abstract = "Propelled by advances in biologically inspired computer vision
+              and artificial intelligence, the past five years have seen
+              significant progress in using deep neural networks to model
+              response patterns of neurons in visual cortex. In this paper, we
+              briefly review this progress and then discuss eight key `open
+              questions' that we believe will drive research in computational
+              models of sensory systems over the next five years, both in
+              visual cortex and beyond.",
+  journal  = "Curr. Opin. Neurobiol.",
+  volume   =  37,
+  pages    = "114--120",
+  month    =  apr,
+  year     =  2016
+}
+
+
+@ARTICLE{Jaderberg2016-zy,
+  title         = "Reinforcement Learning with Unsupervised Auxiliary Tasks",
+  author        = "Jaderberg, Max and Mnih, Volodymyr and Czarnecki, Wojciech
+                   Marian and Schaul, Tom and Leibo, Joel Z and Silver, David
+                   and Kavukcuoglu, Koray",
+  abstract      = "Deep reinforcement learning agents have achieved
+                   state-of-the-art results by directly maximising cumulative
+                   reward. However, environments contain a much wider variety
+                   of possible training signals. In this paper, we introduce an
+                   agent that also maximises many other pseudo-reward functions
+                   simultaneously by reinforcement learning. All of these tasks
+                   share a common representation that, like unsupervised
+                   learning, continues to develop in the absence of extrinsic
+                   rewards. We also introduce a novel mechanism for focusing
+                   this representation upon extrinsic rewards, so that learning
+                   can rapidly adapt to the most relevant aspects of the actual
+                   task. Our agent significantly outperforms the previous
+                   state-of-the-art on Atari, averaging 880\% expert human
+                   performance, and a challenging suite of first-person,
+                   three-dimensional \textbackslashemph\{Labyrinth\} tasks
+                   leading to a mean speedup in learning of 10$\times$ and
+                   averaging 87\% expert human performance on Labyrinth.",
+  month         =  nov,
+  year          =  2016,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1611.05397"
+}
+
+
+@ARTICLE{Hassabis2017-ct,
+  title    = "{Neuroscience-Inspired} Artificial Intelligence",
+  author   = "Hassabis, Demis and Kumaran, Dharshan and Summerfield,
+              Christopher and Botvinick, Matthew",
+  abstract = "The fields of neuroscience and artificial intelligence (AI) have
+              a long and intertwined history. In more recent times, however,
+              communication and collaboration between the two fields has become
+              less commonplace. In this article, we argue that better
+              understanding biological brains could play a vital role in
+              building intelligent machines. We survey historical interactions
+              between the AI and neuroscience fields and emphasize current
+              advances in AI that have been inspired by the study of neural
+              computation in humans and other animals. We conclude by
+              highlighting shared themes that may be key for advancing future
+              research in both fields.",
+  journal  = "Neuron",
+  volume   =  95,
+  number   =  2,
+  pages    = "245--258",
+  month    =  jul,
+  year     =  2017,
+  keywords = "artificial intelligence; brain; cognition; learning; neural
+              network",
+  language = "en"
+}
+
